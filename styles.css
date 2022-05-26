@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* VERY EASY Checkerboard Starts */
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  display: inline-block;
+  margin: -2px;
+}
+
+.black {
+  background-color: black;
+}
+
+/* VERY EASY Checkerboard End */
+
+/* EASY USA Flag Starts */
+
+table {
+  height: 456px;
+  width: 800px;
+}
+
+table,
+td {
+  border: 0px solid;
+  border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+  background: #bf0b30;
+}
+
+tr:nth-child(even) {
+  background: #ffffff;
+}
+
+.stars {
+  background: #002768;
+  width: 288px;
+  height: 245px;
+  margin-top: -456px;
+}
+
+p {
+  color: #fffeff;
+  font-size: 32px;
+  line-height: 25px;
+  letter-spacing: 15px;
+  text-align: center;
+}
+
+/* EASY USA Flag Ends */
